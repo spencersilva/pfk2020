@@ -29,14 +29,14 @@ body {
 h1{
     font-family: 'Permanent Marker', cursive;
     font-weight: normal;
-    font-size: 48px;
-    color: lightpink;
-    
+    font-size: 48px;    
 }
 
 h2, h3, h4, h5, h6 {
     font-family: 'Source Serif Pro', serif;
     font-weight: normal;
+    font-weight: bold;
+    color: dimgray;
 }
 h1 {
     position: relative;
@@ -53,7 +53,7 @@ h1:first-child {
 }
 h1::after {
     content: "";
-    background-color: dodgerblue;
+    background-color: cadetblue;
     position: absolute;
     left: -10000px;
     right: -10000px;
