@@ -29,7 +29,7 @@ body {
 h1{
     font-family: 'Permanent Marker', cursive;
     font-weight: normal;
-    font-size: 48px;    
+    font-size: 50px;    
 }
 
 h2, h3, h4, h5, h6 {
@@ -42,7 +42,7 @@ h1 {
     position: relative;
     font-size: 50px;
     margin-bottom: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 50px 0;
     color: #fff;
     text-align: center;
@@ -100,7 +100,7 @@ h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
     margin: 0;
 }
 img {
-    max-width: 100%;
+    max-width: 75%;
 }
 p {
     margin: 0 0 1.5em;
