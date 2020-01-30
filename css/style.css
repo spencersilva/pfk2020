@@ -19,14 +19,23 @@ html {
 body {
     font-size: 20px;
     color: rgba(0, 0, 0, .8);
-    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.8;
     margin: auto;
     max-width: 700px;
     padding: 16px;
     overflow-x: hidden;
 }
-h1, h2, h3, h4, h5, h6 {
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-weight: normal;
+    font-size: 48px;
+    color: lightpink;
+    
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif Pro', serif;
     font-weight: normal;
 }
 h1 {
@@ -44,7 +53,7 @@ h1:first-child {
 }
 h1::after {
     content: "";
-    background-color: rgba(0, 0, 0, .8);
+    background-color: dodgerblue;
     position: absolute;
     left: -10000px;
     right: -10000px;
@@ -100,7 +109,7 @@ a:focus, a:hover {
     color: #000;
 }
 a {
-    color: #999;
+    color: cadetblue;
     -webkit-transition: color 0.2s;
     -o-transition: color 0.2s;
     transition: color 0.2s;
